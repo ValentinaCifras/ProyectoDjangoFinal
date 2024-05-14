@@ -5,9 +5,9 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center flex-column" id="navbarNav">
-      <ul class="navbar-nav" id="text-nav">
-        <li class="nav-item">
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav flex-column align-items-start" id="text-nav">
+        <li class="nav-item ">
           <a class="nav-link" href="{% url 'indice' %}">Inicio</a>
         </li>
         {% if user.is_authenticated%}
