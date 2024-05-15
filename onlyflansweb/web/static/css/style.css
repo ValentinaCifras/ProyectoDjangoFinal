@@ -1,17 +1,13 @@
 .navbar-nav {
     margin: 0 auto;
-    display: table;
   }
 
 .navbar-nav .nav-item {
-    display: table-cell;
-    text-align: center;
     padding: 0 10px; 
  }
 
 .navbar-nav .nav-link {
     color: black;
-
 }
 
 #text-nav {
@@ -232,5 +228,6 @@ footer{
 #promocion{
     border-radius: 5px;
 }
+
 
 
